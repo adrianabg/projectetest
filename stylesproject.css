@@ -1,0 +1,84 @@
+body{
+    
+    background-image: url(http://4.bp.blogspot.com/-YLmBl9DLa6I/VXeI_k1hJbI/AAAAAAAAASY/RDVh0Z2crNE/s1600/CHUCK%2BNORRIS%2521.jpg);
+    background-attachment: fixed;
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(240, 201, 135, 0.712);
+    text-align: center;
+}
+
+h1{
+    font-family: 'VT323', monospace;
+    font-size: 60px;
+    color: rgba(230, 209, 118, 0.877);
+    text-shadow: 4px 4px 8px rgba(139, 0, 0, 0.76);
+    text-align: center;
+}
+
+
+#box{
+   color:  #E1E9E9;
+   width: auto;
+   height: auto;
+   margin-top: 250px;
+   text-align: center;
+   background-color:rgba(24, 22, 24, 0.603);
+   box-shadow: 0 0 8px black;
+   border-radius: 3%;
+   font-family: 'Alfa Slab One', cursive;
+   font-size: 18px;
+   text-shadow: 2px 2px 4px #000000;
+   transition: 400ms all;
+}
+
+#button{
+    color: black;
+    font-weight: 400;
+    background-color:  rgba(230, 209, 118, 0.904);
+    box-shadow: 0 0 10px black;
+    padding: 20px;
+    border-radius: 50%;
+    font-family: 'Bitter', serif;
+    font-size: 18px;
+    transition: 200ms all;
+    border: rgba(0, 0, 0, 0.021);
+}
+
+
+#button:hover{
+    background-color: rgba(138, 48, 48, 0.87);
+    color: whitesmoke;
+}
+
+.button-clicked {
+    background-color:  rgba(230, 209, 118, 0.904);
+    box-shadow: 0 0 10px black;
+}
+
+@media only screen and (max-width: 800px) {
+    #box{
+        margin-top: 100px;
+    }
+}
+
+/*Navbar*/
+
+#menu{
+    background-color:rgba(29, 30, 31, 0.774);
+}
+
+#iconoprofile{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.nav-link{
+    color: whitesmoke;
+}
+
+.nav-link:hover{
+    color: rgba(230, 209, 118, 0.904);
+}
